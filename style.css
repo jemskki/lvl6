@@ -1,0 +1,181 @@
+.conteiner {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #DDEAF8;
+    /* display: flex; */
+
+}
+
+header {
+    display: flex;
+    background-color: white;
+    max-width: 1440px;
+    width: 100%;
+
+    height: 160px;
+
+    padding: 58px 98px;
+}
+
+.header_content {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+
+    height: 46px;
+
+
+}
+
+
+
+.search {
+
+    width: 221px;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+
+    border-radius: 10px;
+
+
+
+
+}
+
+.icon {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #758BFD;
+
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.nav_text {
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: #758BFD;
+    height: 28px;
+
+    font-size: 25px;
+
+
+
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    color: #27187F;
+
+
+}
+
+/* section */
+section {
+    padding: 115px 98px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid blueviolet; */
+    /* display: flex; */
+}
+
+h1 {
+    width: 232px;
+    height: 37px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    color: #27187F;
+    margin-bottom: 68px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 720px;
+    justify-content: space-between;
+
+    align-content: space-between;
+    margin-bottom: 115px;
+
+}
+
+.card {
+    width: 32%;
+    height: 330px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.card_img {
+    width: 90%;
+    height: 188px;
+}
+
+.card_text {
+    width: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #133B3A;
+
+}
+
+/* footer */
+footer {
+    padding: 78px 98px;
+    max-width: 1440px;
+    width: 100%;
+    height: 240px;
+    background-color: #758BFD;
+    display: flex;
+
+}
+
+.div_1 {
+    width: 160px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-right: 660px;
+
+}
+
+p {
+    color: white;
+}
+
+
+.f_icone {
+    width: 22px;
+    height: 22px;
+    color: white;
+
+}
